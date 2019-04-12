@@ -14,6 +14,7 @@
 		5222292D22607A07001E7FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5222292B22607A07001E7FA4 /* LaunchScreen.storyboard */; };
 		5222293822607A07001E7FA4 /* DownLoadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222293722607A07001E7FA4 /* DownLoadTests.swift */; };
 		5222294322607A08001E7FA4 /* DownLoadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222294222607A08001E7FA4 /* DownLoadUITests.swift */; };
+		5222295122607C51001E7FA4 /* DownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222295022607C51001E7FA4 /* DownloadOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5222293E22607A08001E7FA4 /* DownLoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownLoadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5222294222607A08001E7FA4 /* DownLoadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownLoadUITests.swift; sourceTree = "<group>"; };
 		5222294422607A08001E7FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5222295022607C51001E7FA4 /* DownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5222292922607A07001E7FA4 /* Assets.xcassets */,
 				5222292B22607A07001E7FA4 /* LaunchScreen.storyboard */,
 				5222292E22607A07001E7FA4 /* Info.plist */,
+				5222295022607C51001E7FA4 /* DownloadOperation.swift */,
 			);
 			path = DownLoad;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				5222292522607A01001E7FA4 /* ViewController.swift in Sources */,
 				5222292322607A01001E7FA4 /* AppDelegate.swift in Sources */,
+				5222295122607C51001E7FA4 /* DownloadOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
